@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=Game of Life
+Comment=Made by Jkutkut
+Exec=gameOfLife.py
+Icon=/home/jkutkut/github/PY-GameOfLife/gameOfLife.png
+Terminal=false
