@@ -5,8 +5,11 @@ This is a version of [Conway's Game of Life](https://en.wikipedia.org/wiki/Conwa
 
 ## Content:
 *·[Icon](https://github.com/Jkutkut/PY-GameOfLife/blob/master/gameOfLife.png)*
+
 *·[Code](https://github.com/Jkutkut/PY-GameOfLife/blob/master/gameOfLife.py)*
+
 *·[Install Shell Script](https://github.com/Jkutkut/PY-GameOfLife/blob/master/install.sh)*
+
 *·[Uninstall Shell Script](https://github.com/Jkutkut/PY-GameOfLife/blob/master/uninstall.sh)*
 
 
