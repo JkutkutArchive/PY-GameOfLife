@@ -6,11 +6,11 @@ This is a version of [Conway's Game of Life](https://en.wikipedia.org/wiki/Conwa
 ## Content:
 *·[Icon](https://github.com/Jkutkut/PY-GameOfLife/blob/master/gameOfLife.png)*
 
-*·[Code](https://github.com/Jkutkut/PY-GameOfLife/blob/master/gameOfLife.py)*
+*·[Code](https://github.com/Jkutkut/PY-GameOfLife/blob/master/gameOfLife.py)*: Wrote in Python3.
 
-*·[Install Shell Script](https://github.com/Jkutkut/PY-GameOfLife/blob/master/install.sh)*
+*·[Install Shell Script](https://github.com/Jkutkut/PY-GameOfLife/blob/master/install.sh)*: Enables to install the game as a App on Linux and installs all libraries needed to run this game.
 
-*·[Uninstall Shell Script](https://github.com/Jkutkut/PY-GameOfLife/blob/master/uninstall.sh)*
+*·[Uninstall Shell Script](https://github.com/Jkutkut/PY-GameOfLife/blob/master/uninstall.sh)*: Uninstall the game App 
 
 
 ### Note:
