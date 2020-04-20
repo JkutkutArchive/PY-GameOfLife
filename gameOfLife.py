@@ -39,7 +39,7 @@ screen = pygame.display.set_mode((width, height))
 grid = np.matrix([[0 for j in range(sizeY)] for i in range(sizeX)])
 
 gameRunning = True
-timeRunning = True
+timeRunning = False
 # running = False
 while gameRunning:
     screen.fill(COLOR.BG)
