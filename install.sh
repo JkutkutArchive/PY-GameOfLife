@@ -1,5 +1,3 @@
-
-
 sudo cp gameOfLife.png /usr/share/icons/
 
 sudo cp gameOfLife.py /usr/bin/gameOfLife
