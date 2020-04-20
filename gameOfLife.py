@@ -38,14 +38,8 @@ screen = pygame.display.set_mode((width, height)) # Set the size of the window
 # State of the cells: 0 = death, 1 = alive
 grid = np.matrix([[0 for j in range(sizeY)] for i in range(sizeX)])
 
-
-grid[3, 3] = 1
-grid[3, 5] = 1
-grid[3, 4] = 1
-
 gameRunning = True # If false, the game stops
-# timeRunning = False # If true, time runs (so iterations occur)
-timeRunning = True # If true, time runs (so iterations occur)
+timeRunning = False # If true, time runs (so iterations occur)
 while gameRunning:
     screen.fill(COLOR.BG) # Clean screen
     newGrid = np.copy(grid) # Make a copy of the grid
