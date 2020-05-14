@@ -2,6 +2,11 @@
 
 This is a version of [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) implemented on Python3.
 
+# Controls:
+
+- Space : start or stop time
+
+- Mouse click: kill or revive cell
 
 ## Content:
 *·[Icon](https://github.com/Jkutkut/PY-GameOfLife/blob/master/gameOfLife.png)*
