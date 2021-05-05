@@ -78,6 +78,15 @@ while gameRunning:
             x = floor(pos[0] / sizeWidthX)
             y = floor(pos[1] / sizeWidthY)
             grid[x, y] = (grid[x, y] - 1) % 2 # change value of selected cell
+
+        if event.type == pygame.MOUSEMOTION: # If mouse moved
+            pos = pygame.mouse.get_pos()
+            x = floor(pos[0] / sizeWidthX)
+            y = floor(pos[1] / sizeWidthY)
+            if event.buttons[0] == 1: # If left click hold
+                grid[x, y] = 1 # Activate the cell
+            if event.buttons[2] == 1: # Right click
+                grid[x, y] = 0 # Kill the cell
         elif event.type == pygame.QUIT: # if quit btn pressed
             gameRunning = False # no longer running game
         elif event.type == pygame.KEYDOWN:
